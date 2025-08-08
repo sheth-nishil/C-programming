@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+void main() {
 printf("C Programming");
 getch();
 }
+
