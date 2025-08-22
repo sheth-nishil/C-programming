@@ -9,21 +9,27 @@ int main () {
     total = sub 1 + sub 2 + sub3;
     average = total/3.0
 
-    if (average >= 70) {
-        printf("Distinction");
-    }
-    else if (average >= 60) {
-        printf("First");
-    }
-    else if (average >= 50) {
-        printf("Second");
-    }
-    else if (average >= 35) {
-        printf("third");
-    }
-    else {
+    if (sub1 < 35 || sub2 < 35 || sub3 < 35) {
         printf("Fail!")
+    } 
+    else {
+        if (average >= 70) {
+        printf("Distinction");
+        }
+        else if (average >= 60) {
+        printf("First");
+        }
+        else if (average >= 50) {
+        printf("Second");
+        }
+        else if (average >= 35) {
+        printf("third");
+        }
+        else {
+        printf("Fail!")
+        }
     }
-
+    
     return 0;
 }
+
