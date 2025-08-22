@@ -17,4 +17,6 @@ int main() {
 
     net_salary = gross_salary + allowance - deduction;
     printf("Net Salary: %d", net_salary);
+    return 0;
 }
+
