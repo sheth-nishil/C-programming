@@ -19,4 +19,3 @@ int main() {
     printf("Net Salary: %d", net_salary);
     return 0;
 }
-
