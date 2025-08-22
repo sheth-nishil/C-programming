@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main () {
-    int sub1, sub 2, sub 3;
+    int sub1, sub2, sub3;
     int total;
     float average;
     printf("Enter marks: ");
     scanf("%d %d %d", &sub1, &sub2, &sub3);
-    total = sub 1 + sub 2 + sub3;
-    average = total/3.0
+    total = sub1 + sub2 + sub3;
+    average = total/3.0;
 
     if (sub1 < 35 || sub2 < 35 || sub3 < 35) {
-        printf("Fail!")
-    } 
+        printf("Fail!");
+    }
     else {
         if (average >= 70) {
         printf("Distinction");
@@ -26,10 +26,9 @@ int main () {
         printf("third");
         }
         else {
-        printf("Fail!")
+        printf("Fail!");
         }
     }
-    
+
     return 0;
 }
-
